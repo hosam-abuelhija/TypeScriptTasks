@@ -44,3 +44,21 @@ for (let i = 0; i < numbers.length; i++) {
     } 
   }
 }
+
+
+// let numbers2: number[] = [6, 2, 2, 2, 15, 15, 30, 40];
+//  let NumbersCount: any[] = [];
+// for (let i = 0; i < numbers2.length; i++) {
+// for (let a = 0; a < NumbersCount.length; a++) {
+//   if (numbers2[i] === NumbersCount[a][numbers2[i]]) {
+//     NumbersCount[a].numbers2[i]++;
+//     break;
+//   }else{
+//     NumbersCount.push({numbers2[i]: 1});
+//     break;
+//   }
+// }
+// }
+// console.log(NumbersCount);
+
+

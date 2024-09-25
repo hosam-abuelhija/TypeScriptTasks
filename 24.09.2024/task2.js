@@ -1,3 +1,4 @@
+var _a;
 var numbers = [6, 2, 3, 5, 15, 18, 30, 40];
 var sum = 0;
 for (var i = 0; i < numbers.length; i++) {
@@ -39,3 +40,18 @@ for (var i = 0; i < numbers.length; i++) {
         }
     }
 }
+var numbers2 = [6, 2, 2, 2, 15, 15, 30, 40];
+var NumbersCount = [];
+for (var i = 0; i < numbers2.length; i++) {
+    for (var a = 0; a < NumbersCount.length; a++) {
+        if (numbers2[i] === NumbersCount[a][numbers2[i]]) {
+            NumbersCount[a].numbers2[i]++;
+            break;
+        }
+        else {
+            NumbersCount.push((_a = { numbers2: numbers2 }, _a[i] = 1, _a));
+            break;
+        }
+    }
+}
+console.log(NumbersCount);
